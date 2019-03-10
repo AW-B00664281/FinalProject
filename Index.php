@@ -24,7 +24,7 @@
 			<a id="sideoptions" href="../xxe/xxe.php">External Entity Attack (XXE)</a><br>
 			<a id="sideoptions" href="../fileupload/upload.php">File Upload Shell Attacks</a><br>
 			<a id="sideoptions" href="../idor/insecureobjects.php">Insecure Direct Object Referencing</a><br>
-			<a id="sideoptions" href="../poorauth/login.php">Poor Authentication Coding</a><br>
+			<a id="sideoptions" href="../poorauth/poorauth.php">Poor Authentication Coding</a><br>
 			<a id="sideoptions" href="../sqli/sqli.php">SQL Injection</a><br>
 			<a id="sideoptions" href="../redirs/unvalidated.php">Unvalidated Redirect Attacks</a><br>
 			<a id="sideoptions" href="../xss/domxss.php">XSS - DOM</a><br>
