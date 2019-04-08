@@ -9,8 +9,18 @@
 <html>
 	
 	<head>
-		<title>A Vulnerable Web App</title>
+		<title>About This Project</title>
 		<link rel="stylesheet" href="master.css">
+		<style>
+			#innerbody a {
+				color: #B4A;
+			}
+			
+			#innerbody a:active {
+				color: #B5B;
+			}
+			
+		</style>
 	</head>
 	
 	<body>		
@@ -32,7 +42,7 @@
 		</div>
 		
 		<header id="header">
-			<h1>A Vulnerable Web Application</h1>
+			<h1>About This Web Application</h1>
 		</header>
 		
 			<!-- Innerbody will be where the content for each page goes. 
@@ -40,17 +50,24 @@
 		<div id="innerbody">
 		<br>
 		<br>
-			Welcome to my Project. This Web Application has been created to be intentionally<br>
-			Vulnerable to Web Based Attacks, so that Developers and Security Engineers can<br>
-			Practice their skills, and know what malicious users are attempting to use to<br>
-			Break your Systems. <BR>
+			This Project was created as a means of being used for my Final Year Dissertation.<br>
+			It was created from hobbyist ideas and goes above and beyond to helping improve<br>
+			Security Posture for developers and engineers alike.<br>
 			<br>
-			Before using Vulnerable Web App, I highly recommend that you read the <a href="disclaimer.php">DISCLAIMER</a> page.<br>
+			Overall the Application will focus on each Vulnerability as its own issue. You may<br>
+			Encounter other forms of Vulnerabilities on a different page (For example, an<br>
+			XSS Vulnerability on the SQL Injection page). This is by design, and will raise<br>
+			Your knowledge of identifying and assisting in the remediation of code issues.<br>
+			<br>
+			This Project is different from the competition, as it provides not only a more<br>
+			In depth look at each Vulnerability, but it also adds on some extra Vulnerabilties<br>
+			That other Web Applications do not include. For example, this project includes<br>
+			Issues such as <a href="../clickjacking/clickjacking.php"><b>Clickjacking</b></a> (Also known as a <i>UI Redress Attack</i>), and<br>
+			<a href="../idor/insecureobjects.php"><b>Insecure Direct Object Referencing Attacks</b></a>.<br>
 			<br>
 			<br>
-			If you have any issues with this application or have a query about anything, please email me.<br>
-			<br>
-			Wilkinson-A10@ulster.ac.uk.<br>
+			If you do have any queries, please reach out to me at <i>Wilkinson-A10@ulster.ac.uk</i><br>
+			
 			
 		</div>
 			<!-- Above this line will be the main body of the Document.

@@ -20,7 +20,6 @@
 			<a id="sideoptions" href="#">----------</a><br>
 			<a id="sideoptions" href="../clickjacking/clickjacking.php">Clickjacking</a><br>
 			<a id="sideoptions" href="../csrf/csrf.php">Cross Site Request Forgery (CSRF)</a><br>
-			<a id="sideoptions" href="../xxe/xxe.php">External Entity Attack (XXE)</a><br>
 			<a id="sideoptions" href="../fileupload/upload.php">File Upload Shell Attacks</a><br>
 			<a id="sideoptions" href="../idor/insecureobjects.php">Insecure Direct Object Referencing</a><br>
 			<a id="sideoptions" href="../poorauth/poorauth.php">Poor Authentication Coding</a><br>
@@ -38,6 +37,8 @@
 			<!-- Innerbody will be where the content for each page goes. 
 			     Use everything else as a Master Template. -->
 		<div id="innerbody">
+		<br>
+		<br>
 			THIS PROJECT AIMS TO SHOW DEVELOPERS AND SECURITY ENGINEERS COMMON FLAWS<BR>
 			FOUND WITHIN A TYPICAL WEB APPLICATION, IN A LEGAL AND SAFE ENVIRONMENT.<BR>
 			BECAUSE OF THE VULNERABILITIES THAT ARE FOUND WITHIN THIS PROGRAM, THIS <BR>

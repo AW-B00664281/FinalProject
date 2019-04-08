@@ -2,7 +2,7 @@
 	position: fixed;
 	float: right;
 	bottom: 0;
-	height: 50;
+	height: 30;
 	width: 100%;
 	background-color: #000;
 	color: #FFF;
@@ -60,10 +60,10 @@ body {
 	border: solid;
 	border-color: red;
 	border-radius: 25px;
-	overflow: auto;
-	height: 80%;
+	height: 85%;
 	padding: 10px;
 	text-align: center;
+	overflow: auto;
 	
 }
 
@@ -85,4 +85,12 @@ body {
 	padding: 10px;
 	text-align: center;
 	
+}
+
+#upperbody a {
+	color: #FFF;
+}
+
+#upperbody a:active {
+	color: #B4A;
 }
